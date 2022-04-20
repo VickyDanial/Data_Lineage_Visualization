@@ -1,0 +1,9 @@
+table_name,stage_method,processing_type,target_system,reporting_platform
+customer,informatica,load,billing,snowflake
+customer,kafka,stream,billing,snowflake
+customer,spark,ingestion,billing,snowflake
+customer,python,load,billing,snowflake
+student,informatica,load,enrollment,snowflake
+student,kafka,stream,examination,snowflake
+student,spark,ingestion,analytics,snowflake
+student,python,load,archive,snowflake
